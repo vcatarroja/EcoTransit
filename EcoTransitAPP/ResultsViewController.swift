@@ -2,20 +2,19 @@
 //  ResultsViewController.swift
 //  EcoTransitAPP
 //
-//  Created by Vivienne Catarroja on 2/15/24.
+//  Created by Vivienne Catarroja on 2/11/24.
 //
 
 import Foundation
 import GooglePlaces
 
-final class GooglePlacesManager {
-    static let shared = GooglePlacesManager()
+class ResultsViewController: UIViewController {
     
-    private let client = GMSPlacesClient.shared()
-    
-    private init () {}
-    
-    public func setUp() {
-        GMSPlacesClient.provideAPIKey("AIzaSyADfbzebwGYDUY8ADb8sRZRe8I14uIU4QY")
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        view.backgroundColor = .systemBlue
+        
     }
+        
 }

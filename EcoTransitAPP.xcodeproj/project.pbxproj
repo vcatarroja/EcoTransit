@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		440EE8AC2B7F06D8003FF981 /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = 440EE8AB2B7F06D8003FF981 /* GooglePlaces */; };
 		440EE8AE2B7F07FD003FF981 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440EE8AD2B7F07FD003FF981 /* ResultsViewController.swift */; };
+		443FC8B82B7F82DD00F655C4 /* GooglePlacesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443FC8B72B7F82DD00F655C4 /* GooglePlacesManager.swift */; };
 		44E9150A2B7CD87200B10427 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E915092B7CD87200B10427 /* AppDelegate.swift */; };
 		44E9150C2B7CD87200B10427 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E9150B2B7CD87200B10427 /* SceneDelegate.swift */; };
 		44E9150E2B7CD87200B10427 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E9150D2B7CD87200B10427 /* ViewController.swift */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		440EE8AD2B7F07FD003FF981 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		443FC8B72B7F82DD00F655C4 /* GooglePlacesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesManager.swift; sourceTree = "<group>"; };
 		44E915062B7CD87200B10427 /* EcoTransitAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoTransitAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E915092B7CD87200B10427 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44E9150B2B7CD87200B10427 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				44E915092B7CD87200B10427 /* AppDelegate.swift */,
 				44E9150B2B7CD87200B10427 /* SceneDelegate.swift */,
 				44E9150D2B7CD87200B10427 /* ViewController.swift */,
+				443FC8B72B7F82DD00F655C4 /* GooglePlacesManager.swift */,
 				440EE8AD2B7F07FD003FF981 /* ResultsViewController.swift */,
 				44E9150F2B7CD87200B10427 /* Main.storyboard */,
 				44E915122B7CD87400B10427 /* Assets.xcassets */,
@@ -286,6 +289,7 @@
 				44E9150A2B7CD87200B10427 /* AppDelegate.swift in Sources */,
 				44E9150C2B7CD87200B10427 /* SceneDelegate.swift in Sources */,
 				440EE8AE2B7F07FD003FF981 /* ResultsViewController.swift in Sources */,
+				443FC8B82B7F82DD00F655C4 /* GooglePlacesManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
