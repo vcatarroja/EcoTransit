@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		440EE8AC2B7F06D8003FF981 /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = 440EE8AB2B7F06D8003FF981 /* GooglePlaces */; };
+		440EE8AE2B7F07FD003FF981 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440EE8AD2B7F07FD003FF981 /* ResultsViewController.swift */; };
+		44E9150A2B7CD87200B10427 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E915092B7CD87200B10427 /* AppDelegate.swift */; };
+		44E9150C2B7CD87200B10427 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E9150B2B7CD87200B10427 /* SceneDelegate.swift */; };
+		44E9150E2B7CD87200B10427 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E9150D2B7CD87200B10427 /* ViewController.swift */; };
+		44E915112B7CD87200B10427 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E9150F2B7CD87200B10427 /* Main.storyboard */; };
+		44E915132B7CD87400B10427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E915122B7CD87400B10427 /* Assets.xcassets */; };
+		44E915162B7CD87400B10427 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E915142B7CD87400B10427 /* LaunchScreen.storyboard */; };
+		44E915212B7CD87500B10427 /* EcoTransitAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E915202B7CD87500B10427 /* EcoTransitAPPTests.swift */; };
+		44E9152B2B7CD87500B10427 /* EcoTransitAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E9152A2B7CD87500B10427 /* EcoTransitAPPUITests.swift */; };
+		44E9152D2B7CD87500B10427 /* EcoTransitAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E9152C2B7CD87500B10427 /* EcoTransitAPPUITestsLaunchTests.swift */; };
+		44E9153B2B7CDCCF00B10427 /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 44E9153A2B7CDCCF00B10427 /* GoogleMaps */; };
+		44E9153D2B7CDCCF00B10427 /* GoogleMapsBase in Frameworks */ = {isa = PBXBuildFile; productRef = 44E9153C2B7CDCCF00B10427 /* GoogleMapsBase */; };
+		44E9153F2B7CDCCF00B10427 /* GoogleMapsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 44E9153E2B7CDCCF00B10427 /* GoogleMapsCore */; };
+		44E915412B7CDCCF00B10427 /* GoogleMapsM4B in Frameworks */ = {isa = PBXBuildFile; productRef = 44E915402B7CDCCF00B10427 /* GoogleMapsM4B */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44E9151D2B7CD87500B10427 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44E914FE2B7CD87200B10427 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44E915052B7CD87200B10427;
+			remoteInfo = EcoTransitAPP;
+		};
+		44E915272B7CD87500B10427 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44E914FE2B7CD87200B10427 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44E915052B7CD87200B10427;
+			remoteInfo = EcoTransitAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		440EE8AD2B7F07FD003FF981 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		44E915062B7CD87200B10427 /* EcoTransitAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoTransitAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E915092B7CD87200B10427 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44E9150B2B7CD87200B10427 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44E9150D2B7CD87200B10427 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44E915102B7CD87200B10427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44E915122B7CD87400B10427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44E915152B7CD87400B10427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44E915172B7CD87400B10427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44E9151C2B7CD87500B10427 /* EcoTransitAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoTransitAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E915202B7CD87500B10427 /* EcoTransitAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoTransitAPPTests.swift; sourceTree = "<group>"; };
+		44E915262B7CD87500B10427 /* EcoTransitAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoTransitAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E9152A2B7CD87500B10427 /* EcoTransitAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoTransitAPPUITests.swift; sourceTree = "<group>"; };
+		44E9152C2B7CD87500B10427 /* EcoTransitAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoTransitAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44E915032B7CD87200B10427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E9153B2B7CDCCF00B10427 /* GoogleMaps in Frameworks */,
+				44E9153F2B7CDCCF00B10427 /* GoogleMapsCore in Frameworks */,
+				44E915412B7CDCCF00B10427 /* GoogleMapsM4B in Frameworks */,
+				440EE8AC2B7F06D8003FF981 /* GooglePlaces in Frameworks */,
+				44E9153D2B7CDCCF00B10427 /* GoogleMapsBase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E915192B7CD87500B10427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E915232B7CD87500B10427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44E914FD2B7CD87200B10427 = {
+			isa = PBXGroup;
+			children = (
+				44E915082B7CD87200B10427 /* EcoTransitAPP */,
+				44E9151F2B7CD87500B10427 /* EcoTransitAPPTests */,
+				44E915292B7CD87500B10427 /* EcoTransitAPPUITests */,
+				44E915072B7CD87200B10427 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44E915072B7CD87200B10427 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44E915062B7CD87200B10427 /* EcoTransitAPP.app */,
+				44E9151C2B7CD87500B10427 /* EcoTransitAPPTests.xctest */,
+				44E915262B7CD87500B10427 /* EcoTransitAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44E915082B7CD87200B10427 /* EcoTransitAPP */ = {
+			isa = PBXGroup;
+			children = (
+				44E915092B7CD87200B10427 /* AppDelegate.swift */,
+				44E9150B2B7CD87200B10427 /* SceneDelegate.swift */,
+				44E9150D2B7CD87200B10427 /* ViewController.swift */,
+				440EE8AD2B7F07FD003FF981 /* ResultsViewController.swift */,
+				44E9150F2B7CD87200B10427 /* Main.storyboard */,
+				44E915122B7CD87400B10427 /* Assets.xcassets */,
+				44E915142B7CD87400B10427 /* LaunchScreen.storyboard */,
+				44E915172B7CD87400B10427 /* Info.plist */,
+			);
+			path = EcoTransitAPP;
+			sourceTree = "<group>";
+		};
+		44E9151F2B7CD87500B10427 /* EcoTransitAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				44E915202B7CD87500B10427 /* EcoTransitAPPTests.swift */,
+			);
+			path = EcoTransitAPPTests;
+			sourceTree = "<group>";
+		};
+		44E915292B7CD87500B10427 /* EcoTransitAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44E9152A2B7CD87500B10427 /* EcoTransitAPPUITests.swift */,
+				44E9152C2B7CD87500B10427 /* EcoTransitAPPUITestsLaunchTests.swift */,
+			);
+			path = EcoTransitAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44E915052B7CD87200B10427 /* EcoTransitAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E915302B7CD87500B10427 /* Build configuration list for PBXNativeTarget "EcoTransitAPP" */;
+			buildPhases = (
+				44E915022B7CD87200B10427 /* Sources */,
+				44E915032B7CD87200B10427 /* Frameworks */,
+				44E915042B7CD87200B10427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EcoTransitAPP;
+			packageProductDependencies = (
+				44E9153A2B7CDCCF00B10427 /* GoogleMaps */,
+				44E9153C2B7CDCCF00B10427 /* GoogleMapsBase */,
+				44E9153E2B7CDCCF00B10427 /* GoogleMapsCore */,
+				44E915402B7CDCCF00B10427 /* GoogleMapsM4B */,
+				440EE8AB2B7F06D8003FF981 /* GooglePlaces */,
+			);
+			productName = EcoTransitAPP;
+			productReference = 44E915062B7CD87200B10427 /* EcoTransitAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44E9151B2B7CD87500B10427 /* EcoTransitAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E915332B7CD87500B10427 /* Build configuration list for PBXNativeTarget "EcoTransitAPPTests" */;
+			buildPhases = (
+				44E915182B7CD87500B10427 /* Sources */,
+				44E915192B7CD87500B10427 /* Frameworks */,
+				44E9151A2B7CD87500B10427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44E9151E2B7CD87500B10427 /* PBXTargetDependency */,
+			);
+			name = EcoTransitAPPTests;
+			productName = EcoTransitAPPTests;
+			productReference = 44E9151C2B7CD87500B10427 /* EcoTransitAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44E915252B7CD87500B10427 /* EcoTransitAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E915362B7CD87500B10427 /* Build configuration list for PBXNativeTarget "EcoTransitAPPUITests" */;
+			buildPhases = (
+				44E915222B7CD87500B10427 /* Sources */,
+				44E915232B7CD87500B10427 /* Frameworks */,
+				44E915242B7CD87500B10427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44E915282B7CD87500B10427 /* PBXTargetDependency */,
+			);
+			name = EcoTransitAPPUITests;
+			productName = EcoTransitAPPUITests;
+			productReference = 44E915262B7CD87500B10427 /* EcoTransitAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44E914FE2B7CD87200B10427 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					44E915052B7CD87200B10427 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					44E9151B2B7CD87500B10427 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 44E915052B7CD87200B10427;
+					};
+					44E915252B7CD87500B10427 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 44E915052B7CD87200B10427;
+					};
+				};
+			};
+			buildConfigurationList = 44E915012B7CD87200B10427 /* Build configuration list for PBXProject "EcoTransitAPP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44E914FD2B7CD87200B10427;
+			packageReferences = (
+				44E915392B7CDCCF00B10427 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+				440EE8AA2B7F06D8003FF981 /* XCRemoteSwiftPackageReference "ios-places-sdk" */,
+			);
+			productRefGroup = 44E915072B7CD87200B10427 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44E915052B7CD87200B10427 /* EcoTransitAPP */,
+				44E9151B2B7CD87500B10427 /* EcoTransitAPPTests */,
+				44E915252B7CD87500B10427 /* EcoTransitAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44E915042B7CD87200B10427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E915162B7CD87400B10427 /* LaunchScreen.storyboard in Resources */,
+				44E915132B7CD87400B10427 /* Assets.xcassets in Resources */,
+				44E915112B7CD87200B10427 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E9151A2B7CD87500B10427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E915242B7CD87500B10427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44E915022B7CD87200B10427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E9150E2B7CD87200B10427 /* ViewController.swift in Sources */,
+				44E9150A2B7CD87200B10427 /* AppDelegate.swift in Sources */,
+				44E9150C2B7CD87200B10427 /* SceneDelegate.swift in Sources */,
+				440EE8AE2B7F07FD003FF981 /* ResultsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E915182B7CD87500B10427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E915212B7CD87500B10427 /* EcoTransitAPPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E915222B7CD87500B10427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E9152D2B7CD87500B10427 /* EcoTransitAPPUITestsLaunchTests.swift in Sources */,
+				44E9152B2B7CD87500B10427 /* EcoTransitAPPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44E9151E2B7CD87500B10427 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44E915052B7CD87200B10427 /* EcoTransitAPP */;
+			targetProxy = 44E9151D2B7CD87500B10427 /* PBXContainerItemProxy */;
+		};
+		44E915282B7CD87500B10427 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44E915052B7CD87200B10427 /* EcoTransitAPP */;
+			targetProxy = 44E915272B7CD87500B10427 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44E9150F2B7CD87200B10427 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44E915102B7CD87200B10427 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44E915142B7CD87400B10427 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44E915152B7CD87400B10427 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44E9152E2B7CD87500B10427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44E9152F2B7CD87500B10427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44E915312B7CD87500B10427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MRVSA48R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EcoTransitAPP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GDSC-WPT.EcoTransitAPP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44E915322B7CD87500B10427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MRVSA48R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EcoTransitAPP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GDSC-WPT.EcoTransitAPP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44E915342B7CD87500B10427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MRVSA48R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GDSC-WPT.EcoTransitAPPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcoTransitAPP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EcoTransitAPP";
+			};
+			name = Debug;
+		};
+		44E915352B7CD87500B10427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MRVSA48R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GDSC-WPT.EcoTransitAPPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcoTransitAPP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EcoTransitAPP";
+			};
+			name = Release;
+		};
+		44E915372B7CD87500B10427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MRVSA48R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GDSC-WPT.EcoTransitAPPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EcoTransitAPP;
+			};
+			name = Debug;
+		};
+		44E915382B7CD87500B10427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MRVSA48R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GDSC-WPT.EcoTransitAPPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EcoTransitAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44E915012B7CD87200B10427 /* Build configuration list for PBXProject "EcoTransitAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E9152E2B7CD87500B10427 /* Debug */,
+				44E9152F2B7CD87500B10427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44E915302B7CD87500B10427 /* Build configuration list for PBXNativeTarget "EcoTransitAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E915312B7CD87500B10427 /* Debug */,
+				44E915322B7CD87500B10427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44E915332B7CD87500B10427 /* Build configuration list for PBXNativeTarget "EcoTransitAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E915342B7CD87500B10427 /* Debug */,
+				44E915352B7CD87500B10427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44E915362B7CD87500B10427 /* Build configuration list for PBXNativeTarget "EcoTransitAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E915372B7CD87500B10427 /* Debug */,
+				44E915382B7CD87500B10427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		440EE8AA2B7F06D8003FF981 /* XCRemoteSwiftPackageReference "ios-places-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-places-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.0;
+			};
+		};
+		44E915392B7CDCCF00B10427 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		440EE8AB2B7F06D8003FF981 /* GooglePlaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 440EE8AA2B7F06D8003FF981 /* XCRemoteSwiftPackageReference "ios-places-sdk" */;
+			productName = GooglePlaces;
+		};
+		44E9153A2B7CDCCF00B10427 /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44E915392B7CDCCF00B10427 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+		44E9153C2B7CDCCF00B10427 /* GoogleMapsBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44E915392B7CDCCF00B10427 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsBase;
+		};
+		44E9153E2B7CDCCF00B10427 /* GoogleMapsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44E915392B7CDCCF00B10427 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsCore;
+		};
+		44E915402B7CDCCF00B10427 /* GoogleMapsM4B */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44E915392B7CDCCF00B10427 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsM4B;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 44E914FE2B7CD87200B10427 /* Project object */;
+}
