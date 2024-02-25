@@ -5,16 +5,16 @@
 //  Created by Vivienne Catarroja on 2/14/24.
 //
 
+import GooglePlaces
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        GooglePlacesManager.shared.setUp()
+
+        GMSPlacesClient.provideAPIKey("AIzaSyADfbzebwGYDUY8ADb8sRZRe8I14uIU4QY")
+
         return true
     }
 
@@ -34,4 +34,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
