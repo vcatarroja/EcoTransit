@@ -9,9 +9,10 @@
 /* Begin PBXBuildFile section */
 		440EE8AC2B7F06D8003FF981 /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = 440EE8AB2B7F06D8003FF981 /* GooglePlaces */; };
 		440EE8AE2B7F07FD003FF981 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440EE8AD2B7F07FD003FF981 /* ResultsViewController.swift */; };
-		441F04E62B8B8AE00040D21C /* DirectionsAPI.py in Resources */ = {isa = PBXBuildFile; fileRef = 441F04E52B8B8AE00040D21C /* DirectionsAPI.py */; };
 		443FC8B82B7F82DD00F655C4 /* GooglePlacesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443FC8B72B7F82DD00F655C4 /* GooglePlacesManager.swift */; };
 		4477351F2B84EB2100C60816 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4477351E2B84EB2100C60816 /* Podfile */; };
+		447DC4FC2B8B8FC600BDEE18 /* DirectionsWalkScore.py in Resources */ = {isa = PBXBuildFile; fileRef = 447DC4FB2B8B8FC600BDEE18 /* DirectionsWalkScore.py */; };
+		447DC4FE2B8B901600BDEE18 /* WalkScore in Resources */ = {isa = PBXBuildFile; fileRef = 447DC4FD2B8B901600BDEE18 /* WalkScore */; };
 		44E9150A2B7CD87200B10427 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E915092B7CD87200B10427 /* AppDelegate.swift */; };
 		44E9150C2B7CD87200B10427 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E9150B2B7CD87200B10427 /* SceneDelegate.swift */; };
 		44E9150E2B7CD87200B10427 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E9150D2B7CD87200B10427 /* ViewController.swift */; };
@@ -46,9 +47,10 @@
 
 /* Begin PBXFileReference section */
 		440EE8AD2B7F07FD003FF981 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
-		441F04E52B8B8AE00040D21C /* DirectionsAPI.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = DirectionsAPI.py; path = ../../../../DirectionsAPI.py; sourceTree = "<group>"; };
 		443FC8B72B7F82DD00F655C4 /* GooglePlacesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesManager.swift; sourceTree = "<group>"; };
 		4477351E2B84EB2100C60816 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		447DC4FB2B8B8FC600BDEE18 /* DirectionsWalkScore.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = DirectionsWalkScore.py; sourceTree = "<group>"; };
+		447DC4FD2B8B901600BDEE18 /* WalkScore */ = {isa = PBXFileReference; lastKnownFileType = text; path = WalkScore; sourceTree = "<group>"; };
 		44E915062B7CD87200B10427 /* EcoTransitAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoTransitAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E915092B7CD87200B10427 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44E9150B2B7CD87200B10427 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,7 +120,8 @@
 		44E915082B7CD87200B10427 /* EcoTransitAPP */ = {
 			isa = PBXGroup;
 			children = (
-				441F04E52B8B8AE00040D21C /* DirectionsAPI.py */,
+				447DC4FB2B8B8FC600BDEE18 /* DirectionsWalkScore.py */,
+				447DC4FD2B8B901600BDEE18 /* WalkScore */,
 				44E915092B7CD87200B10427 /* AppDelegate.swift */,
 				44E9150B2B7CD87200B10427 /* SceneDelegate.swift */,
 				44E9150D2B7CD87200B10427 /* ViewController.swift */,
@@ -264,10 +267,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447DC4FE2B8B901600BDEE18 /* WalkScore in Resources */,
 				44E915162B7CD87400B10427 /* LaunchScreen.storyboard in Resources */,
-				441F04E62B8B8AE00040D21C /* DirectionsAPI.py in Resources */,
 				44E915132B7CD87400B10427 /* Assets.xcassets in Resources */,
 				4477351F2B84EB2100C60816 /* Podfile in Resources */,
+				447DC4FC2B8B8FC600BDEE18 /* DirectionsWalkScore.py in Resources */,
 				44E915112B7CD87200B10427 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

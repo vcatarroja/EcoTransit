@@ -1,0 +1,49 @@
+<script type="text/javascript">
+
+    function injectWalkScore(address,lat,lon){
+        address = encodeURIComponent(address);
+        var url="api-sample-code-get-walkscore.php?address=" + address + "&lat=" + lat + "&lon=" + lon;
+        $.ajax( {
+            url: url,
+            type:'GET',
+            success: function(data) { displayWalkScores(data); },
+            error: function(){ displayWalkScores(""); }
+            }
+        );
+    }
+    //to demonstrate all of our formatting options, we'll pass the json on to a series of display functions.
+    //in practice, you'll only need one of these, and the ajax call could call it directly as it's onSuccess callback
+    
+    function displayWalkScores(jsonStr) {
+        displayWalkScore(jsonStr);
+    }
+
+    //show the walk score -- inserts walkscore html into the page
+    
+    function displayWalkScore(jsonStr) {
+        var json=(jsonStr) ? eval('(' + jsonStr + ')') : ""; //if no response, bypass the eval
+
+        //if we got a score
+        if (json && json.status == 1) {
+            var htmlStr = '<a target="_blank" href="' + json.help_link + '"><img src="' + json.logo_url + '" /><span class="walkscore-scoretext">' + json.walkscore + '</span></a>';
+        }
+        //if no score was available
+        else if (json && json.status == 2) {
+            var htmlStr = '<a target="_blank" href="' + json.help_link + '"><img src="' + json.logo_url + '" /></a> <a href="' + json.ws_link + '"><span class="walkscore-noscoretext">Get Score</span></a>';
+        }
+        //if didn't even get a json response
+        else {
+            var htmlStr = '<a target="_blank" href="https://www.walkscore.com"><img src="//cdn2.walk.sc/2/images/api-logo.png" /> <span class="walkscore-noscoretext">Get Score</span></a> ';
+        }
+        var infoIconHtml = '<span id="ws_info"><a href="https://www.redfin.com/how-walk-score-works" target="_blank"><img src="//cdn2.walk.sc/2/images/api-more-info.gif" width="13" height="13"" /></a></span>';
+
+        //if you want to wrap extra tags around the html, can do that here before inserting into page element
+        htmlStr = '<p>' + htmlStr + infoIconHtml + '</p>';
+
+        //insert our new content into the container div:
+        $("#walkscore-div").html(htmlStr);
+    }
+</script>
+
+// onload="injectWalkScore('Irvine Barclay Center, Irvine, CA 92617', 33.649146, -117.840664)"
+
